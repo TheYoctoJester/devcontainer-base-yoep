@@ -1,4 +1,4 @@
-FROM ubuntu:focal
+FROM ubuntu:jammy
 
 COPY install-packages /usr/bin
 
@@ -40,7 +40,7 @@ RUN yes | unminimize \
         python3-jinja2 \
         libegl1-mesa \
         libsdl1.2-dev \
-        pylint3 \
+        pylint \
         xterm \
         python3-subunit \
         mesa-common-dev \
