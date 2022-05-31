@@ -2,9 +2,9 @@ name: CI to Docker Hub
 
 on:
   push:
-    branches: [ main, focal ]
+    branches: [ main, focal, jammy ]
   pull_request:
-    branches: [ main, focal ]
+    branches: [ main, focal, jammy ]
 
 jobs:
 
